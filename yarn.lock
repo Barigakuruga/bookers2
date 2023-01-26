@@ -6762,6 +6762,23 @@ unbox-primitive@^1.0.2:
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
 
+underscore.string@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/underscore.string/-/underscore.string-1.1.6.tgz#e7dca073ccd945515a6a69e7af484aee4e52cdc9"
+  integrity sha512-FTvqbu8cqAzjwnjobi5X/rWjaryVA4XULdnyqFTRLD7FpKfuBNhFXqUjw9Scv5l39nmUtUMU3OGBogaaCpgFCg==
+  dependencies:
+    underscore "1.1.7"
+
+underscore@1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.1.7.tgz#40bab84bad19d230096e8d6ef628bff055d83db0"
+  integrity sha512-w4QtCHoLBXw1mjofIDoMyexaEdWGMedWNDhlWTtT1V1lCRqi65Pnoygkh6+WRdr+Bm8ldkBNkNeCsXGMlQS9HQ==
+
+underscore@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.2.1.tgz#fc5c6b0765673d92a2d4ac8b4dc0aa88702e2bd4"
+  integrity sha512-HRhh6FYh5I5/zTt7L9MnHRA/nlSFPiwymMCXEremmzT7tHR+8CNP0FXHPaUpafAPwvAlNrvZiH91kQwoo/CqUA==
+
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-2.0.0.tgz#301acdc525631670d39f6146e0e77ff6bbdebddc"
@@ -6849,6 +6866,14 @@ update-browserslist-db@^1.0.9:
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
+
+uquery@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/uquery/-/uquery-0.0.1.tgz#0f52e12d2d2f0b2a44f9c34473ec5fd71e8366c9"
+  integrity sha512-0/Agx0BpZ/Q//IEj36xqUabuhWHPKSaGmiLyY/5+vABuFJO5QX5fjfgqBfXp0AE+bKsQhEIAafAPYxyJH9z3EQ==
+  dependencies:
+    underscore "1.2.1"
+    underscore.string "1.1.6"
 
 uri-js@^4.2.2:
   version "4.4.1"
