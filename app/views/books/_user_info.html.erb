@@ -20,7 +20,7 @@
           <% end %>
         </div>
         <h2 class="mt-3">New book</h2>
-        <%= form_with model: user do |f| %>
+        <%= form_with model: book do |f| %>
           <div class="form-group">
             <%= f.label :Title %><br />
             <%= f.text_field :title, autofocus: true, autocomplete: "Title", class:"form-control book_title" %>
